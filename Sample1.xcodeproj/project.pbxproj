@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		26061CC419DC044500B390D0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 26061CC319DC044500B390D0 /* main.m */; };
 		26061CDE19DC044500B390D0 /* GHUnitTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 26061CDD19DC044500B390D0 /* GHUnitTestTests.m */; };
+		26061CE719DC06B300B390D0 /* Util.m in Sources */ = {isa = PBXBuildFile; fileRef = 26061CE619DC06B300B390D0 /* Util.m */; };
+		26061CE819DC06FB00B390D0 /* Util.m in Sources */ = {isa = PBXBuildFile; fileRef = 26061CE619DC06B300B390D0 /* Util.m */; };
+		26061CEB19DC077300B390D0 /* UtilTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 26061CEA19DC077300B390D0 /* UtilTest.m */; };
 		2DA9031D19DB9C82007A6134 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DA9031C19DB9C82007A6134 /* main.m */; };
 		2DA9032019DB9C82007A6134 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DA9031F19DB9C82007A6134 /* AppDelegate.m */; };
 		2DA9032319DB9C82007A6134 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DA9032219DB9C82007A6134 /* ViewController.m */; };
@@ -46,6 +49,10 @@
 		26061CD719DC044500B390D0 /* GHUnitTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GHUnitTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		26061CDC19DC044500B390D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		26061CDD19DC044500B390D0 /* GHUnitTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GHUnitTestTests.m; sourceTree = "<group>"; };
+		26061CE519DC06B300B390D0 /* Util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Util.h; sourceTree = "<group>"; };
+		26061CE619DC06B300B390D0 /* Util.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Util.m; sourceTree = "<group>"; };
+		26061CE919DC077300B390D0 /* UtilTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UtilTest.h; sourceTree = "<group>"; };
+		26061CEA19DC077300B390D0 /* UtilTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UtilTest.m; sourceTree = "<group>"; };
 		2DA9031719DB9C82007A6134 /* Sample1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sample1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2DA9031B19DB9C82007A6134 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2DA9031C19DB9C82007A6134 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -104,6 +111,8 @@
 			isa = PBXGroup;
 			children = (
 				26061CC119DC044500B390D0 /* Supporting Files */,
+				26061CE919DC077300B390D0 /* UtilTest.h */,
+				26061CEA19DC077300B390D0 /* UtilTest.m */,
 			);
 			path = GHUnitTest;
 			sourceTree = "<group>";
@@ -181,6 +190,8 @@
 				2DA9034119DBA230007A6134 /* PushViewController.m */,
 				2DA9034319DBA241007A6134 /* ModalViewController.h */,
 				2DA9034419DBA241007A6134 /* ModalViewController.m */,
+				26061CE519DC06B300B390D0 /* Util.h */,
+				26061CE619DC06B300B390D0 /* Util.m */,
 			);
 			path = Sample1;
 			sourceTree = "<group>";
@@ -414,6 +425,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				26061CC419DC044500B390D0 /* main.m in Sources */,
+				26061CEB19DC077300B390D0 /* UtilTest.m in Sources */,
+				26061CE819DC06FB00B390D0 /* Util.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -434,6 +447,7 @@
 				2DA9034519DBA241007A6134 /* ModalViewController.m in Sources */,
 				2DA9034219DBA230007A6134 /* PushViewController.m in Sources */,
 				2DA9031D19DB9C82007A6134 /* main.m in Sources */,
+				26061CE719DC06B300B390D0 /* Util.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
