@@ -4,6 +4,11 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>GHUnitTest.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>3</integer>
+		</dict>
 		<key>Sample1.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -12,6 +17,16 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>26061CBE19DC044500B390D0</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>26061CD619DC044500B390D0</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>2DA9031619DB9C82007A6134</key>
 		<dict>
 			<key>primary</key>

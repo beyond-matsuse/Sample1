@@ -6,6 +6,7 @@ source 'https://github.com/CocoaPods/Specs.git'
 target "Sample1" do
 
 pod 'AFNetworking'
+pod 'GHUnitIOS'
 
 end
 

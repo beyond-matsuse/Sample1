@@ -1,0 +1,5 @@
+#include "Pods-Sample1-GHUnitIOS.xcconfig"
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = "${PODS_ROOT}/Headers/Build" "${PODS_ROOT}/Headers/Build/GHUnitIOS" "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/AFNetworking" "${PODS_ROOT}/Headers/Public/GHUnitIOS"
+OTHER_LDFLAGS = ${PODS_SAMPLE__GHUNITIOS_OTHER_LDFLAGS} -ObjC
+PODS_ROOT = ${SRCROOT}

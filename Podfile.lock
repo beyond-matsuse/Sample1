@@ -20,11 +20,14 @@ PODS:
   - AFNetworking/UIKit (2.4.1):
     - AFNetworking/NSURLConnection
     - AFNetworking/NSURLSession
+  - GHUnitIOS (0.5.8)
 
 DEPENDENCIES:
   - AFNetworking
+  - GHUnitIOS
 
 SPEC CHECKSUMS:
   AFNetworking: 0aabc6fae66d6e5d039eeb21c315843c7aae51ab
+  GHUnitIOS: 0fe5a01896673a7768ee76158fbae02ad8fde853
 
 COCOAPODS: 0.34.1
